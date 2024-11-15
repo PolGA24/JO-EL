@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int numero = scanner.nextInt();
+
+        if (numero >= 1 && numero <= 43200) {
+            System.out.println("mati del dia 1");
+        } else if (numero >= 43201 && numero <= 86400) {
+            System.out.println("nit del dia 1");
+        } else if (numero >= 86401 && numero <= 129600) {
+            System.out.println("mati del dia 2");
+        } else if (numero >= 129601 && numero <= 172800) {
+            System.out.println("nit del dia 2");
+        } else if (numero >= 172801 && numero <= 216000) {
+            System.out.println("mati del dia 3");
+        } else if (numero >= 216001 && numero <= 259200) {
+            System.out.println("nit del dia 3");
+        } else if (numero >= 259201 && numero <= 302400) {
+            System.out.println("mati del dia 4");
+        } else if (numero >= 302401 && numero <= 345600) {
+            System.out.println("nit del dia 4");
+        } else if (numero >= 345601 && numero <= 388800) {
+            System.out.println("mati del dia 5");
+        } else if (numero >= 388801 && numero <= 432000) {
+            System.out.println("nit del dia 5");
+        } else if (numero >= 432001 && numero <= 475200) {
+            System.out.println("mati del dia 6");
+        } else if (numero >= 475201 && numero <= 518400) {
+            System.out.println("nit del dia 6");
+        } else if (numero >= 518401 && numero <= 561600) {
+            System.out.println("mati del dia 7");
+        } else if (numero >= 561601 && numero <= 604800) {
+            System.out.println("nit del dia 7");
+        } else if (numero >= 604801 && numero <= 648000) {
+            System.out.println("mati del dia 8");
+        } else if (numero >= 648001 && numero <= 691200) {
+            System.out.println("nit del dia 8");
+        } else if (numero >= 691201 && numero <= 734400) {
+            System.out.println("mati del dia 9");
+        } else if (numero >= 734401 && numero <= 777600) {
+            System.out.println("nit del dia 9");
+        } else if (numero >= 777601 && numero <= 820800) {
+            System.out.println("mati del dia 10");
+        } else if (numero >= 820801 && numero <= 864000) {
+            System.out.println("nit del dia 10");
+        } else if (numero >= 864001 && numero <= 907200) {
+            System.out.println("mati del dia 11");
+        } else if (numero >= 907201 && numero <= 950400) {
+            System.out.println("nit del dia 11");
+        } else if (numero >= 950401 && numero <= 993600) {
+            System.out.println("mati del dia 12");
+        } else if (numero >= 993601 && numero <= 1000000) {
+            System.out.println("nit del dia 12");
+        } else {
+            System.out.println("Número fuera del rango");
+        }
+
+        scanner.close();
+    }
+}
